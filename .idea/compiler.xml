@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="acm" />
+        <module name="algorithm" />
+        <module name="ignite" />
+        <module name="kafka-0.10" />
+        <module name="kafka-0.8" />
+        <module name="kotlin" />
+        <module name="maven-package" />
+        <module name="tools" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="acm" target="1.7" />
+      <module name="algorithm" target="1.7" />
+      <module name="code" target="1.7" />
+      <module name="common" target="1.7" />
+      <module name="ignite" target="1.7" />
+      <module name="kafka-0.10" target="1.7" />
+      <module name="kafka-0.8" target="1.7" />
+      <module name="kotlin" target="1.7" />
+      <module name="maven-package" target="1.7" />
+      <module name="tools" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

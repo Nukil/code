@@ -1,0 +1,117 @@
+[2017-12-14 17:55:06,976] INFO ConsumerConfig values: 
+	interceptor.classes = null
+	request.timeout.ms = 40000
+	check.crcs = true
+	ssl.truststore.password = null
+	retry.backoff.ms = 100
+	ssl.keymanager.algorithm = SunX509
+	receive.buffer.bytes = 65536
+	ssl.key.password = null
+	ssl.cipher.suites = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.service.name = null
+	ssl.provider = null
+	session.timeout.ms = 30000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	max.poll.records = 100000
+	bootstrap.servers = [192.168.62.200:9092, 192.168.62.201:9092, 192.168.62.202:9092]
+	client.id = 
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	auto.offset.reset = earliest
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	max.partition.fetch.bytes = 1048576
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	ssl.endpoint.identification.algorithm = null
+	ssl.keystore.location = null
+	ssl.truststore.location = null
+	exclude.internal.topics = true
+	ssl.keystore.password = null
+	metrics.sample.window.ms = 30000
+	security.protocol = PLAINTEXT
+	metadata.max.age.ms = 300000
+	auto.commit.interval.ms = 5000
+	ssl.protocol = TLS
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.trustmanager.algorithm = PKIX
+	group.id = test-102
+	enable.auto.commit = true
+	metric.reporters = []
+	ssl.truststore.type = JKS
+	send.buffer.bytes = 131072
+	reconnect.backoff.ms = 50
+	metrics.num.samples = 2
+	ssl.keystore.type = JKS
+	heartbeat.interval.ms = 3000
+ (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-12-14 17:55:07,959] INFO ConsumerConfig values: 
+	interceptor.classes = null
+	request.timeout.ms = 40000
+	check.crcs = true
+	ssl.truststore.password = null
+	retry.backoff.ms = 100
+	ssl.keymanager.algorithm = SunX509
+	receive.buffer.bytes = 65536
+	ssl.key.password = null
+	ssl.cipher.suites = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.service.name = null
+	ssl.provider = null
+	session.timeout.ms = 30000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	max.poll.records = 100000
+	bootstrap.servers = [192.168.62.200:9092, 192.168.62.201:9092, 192.168.62.202:9092]
+	client.id = consumer-1
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	auto.offset.reset = earliest
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	max.partition.fetch.bytes = 1048576
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	ssl.endpoint.identification.algorithm = null
+	ssl.keystore.location = null
+	ssl.truststore.location = null
+	exclude.internal.topics = true
+	ssl.keystore.password = null
+	metrics.sample.window.ms = 30000
+	security.protocol = PLAINTEXT
+	metadata.max.age.ms = 300000
+	auto.commit.interval.ms = 5000
+	ssl.protocol = TLS
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	ssl.trustmanager.algorithm = PKIX
+	group.id = test-102
+	enable.auto.commit = true
+	metric.reporters = []
+	ssl.truststore.type = JKS
+	send.buffer.bytes = 131072
+	reconnect.backoff.ms = 50
+	metrics.num.samples = 2
+	ssl.keystore.type = JKS
+	heartbeat.interval.ms = 3000
+ (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-12-14 17:55:08,011] WARN The configuration socket.connect.max.retry = 6 was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-12-14 17:55:08,023] WARN The configuration poll.timeout.ms = 3000 was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-12-14 17:55:08,023] WARN The configuration socket.receive.buffer.bytes = 1048576 was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-12-14 17:55:08,023] WARN The configuration service.receive.topic.name = kafka_1000W_10 was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-12-14 17:55:08,024] WARN The configuration enable.kafka.consumer.debug = false was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-12-14 17:55:08,024] WARN The configuration refresh.leader.backoff.ms = 200 was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-12-14 17:55:08,024] WARN The configuration receive.process.debug.enable = false was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-12-14 17:55:08,024] WARN The configuration auto.commit.enable = false was supplied but isn't a known config. (org.apache.kafka.clients.consumer.ConsumerConfig)
+[2017-12-14 17:55:08,027] INFO Kafka version : 0.10.0.1 (org.apache.kafka.common.utils.AppInfoParser)
+[2017-12-14 17:55:08,027] INFO Kafka commitId : a7a17cdec9eaa6c5 (org.apache.kafka.common.utils.AppInfoParser)
+[2017-12-14 17:55:08,106] INFO Discovered coordinator poseidonM3:9092 (id: 2147483644 rack: null) for group test-102. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
+[2017-12-14 17:55:08,545] INFO Revoking previously assigned partitions [] for group test-102 (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator)
+[2017-12-14 17:55:08,545] INFO (Re-)joining group test-102 (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
+[2017-12-14 17:55:08,568] INFO Successfully joined group test-102 with generation 1 (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
+[2017-12-14 17:55:08,569] INFO Setting newly assigned partitions [kafka_1000W_10-5, kafka_1000W_10-0, kafka_1000W_10-10, kafka_1000W_10-11, kafka_1000W_10-4, kafka_1000W_10-9, kafka_1000W_10-7, kafka_1000W_10-6, kafka_1000W_10-8, kafka_1000W_10-17, kafka_1000W_10-19, kafka_1000W_10-18, kafka_1000W_10-16, kafka_1000W_10-15, kafka_1000W_10-2, kafka_1000W_10-14, kafka_1000W_10-3, kafka_1000W_10-12, kafka_1000W_10-13, kafka_1000W_10-1] for group test-102 (org.apache.kafka.clients.consumer.internals.ConsumerCoordinator)

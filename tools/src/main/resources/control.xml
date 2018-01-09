@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tabledef>
+    <table>
+        <name>table_name</name>
+        <desc>数据表名称</desc>
+    </table>
+    <fields>
+        <fields_1>
+            <field>first</field>
+            <desc>第一个字段</desc>
+        </fields_1>
+        <fields_2>
+            <field>second</field>
+            <desc>第二个字段</desc>
+        </fields_2>
+        <fields_3>
+            <field>third</field>
+            <desc>第三个字段</desc>
+        </fields_3>
+    </fields>
+    <connection>
+        <driverClass>com.mysql.jdbc.Driver</driverClass>
+        <url>jdbc:mysql://host:port/database?useUnicode=true&amp;characterEncoding=utf8</url>
+        <user>user</user>
+        <password>password</password>
+    </connection>
+</tabledef>

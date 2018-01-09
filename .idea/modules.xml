@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/acm/acm.iml" filepath="$PROJECT_DIR$/acm/acm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code.iml" filepath="$PROJECT_DIR$/code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ignite/ignite.iml" filepath="$PROJECT_DIR$/ignite/ignite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-0.10/kafka-0.10.iml" filepath="$PROJECT_DIR$/kafka-0.10/kafka-0.10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-0.8/kafka-0.8.iml" filepath="$PROJECT_DIR$/kafka-0.8/kafka-0.8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kotlin/kotlin.iml" filepath="$PROJECT_DIR$/kotlin/kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-package/maven-package.iml" filepath="$PROJECT_DIR$/maven-package/maven-package.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/tools.iml" filepath="$PROJECT_DIR$/tools/tools.iml" />
+    </modules>
+  </component>
+</project>
